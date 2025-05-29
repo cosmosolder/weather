@@ -1,5 +1,6 @@
 def main():
     print("Hello from weather!")
+    print('IN MAIN+++++++++++++++++++++++', file=sys.stderr)
 
 
 
