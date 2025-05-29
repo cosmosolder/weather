@@ -7,8 +7,7 @@ import httpx
 from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server
-mcp = FastMCP("weather")
-VAR="dummy"  # Placeholder for any variable you might need
+mcp = FastMCP("weather", description="Weather API Tool using FastMCP", version="1.0.0")
 # Replace with your actual variable or remove if not needed
 
 # Constants
