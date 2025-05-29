@@ -8,7 +8,7 @@ from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server
 mcp = FastMCP("weather")
-VAR="xxxxxx"  # Placeholder for any variable you might need
+VAR="dummy"  # Placeholder for any variable you might need
 # Replace with your actual variable or remove if not needed
 
 # Constants
