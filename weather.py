@@ -1,9 +1,15 @@
+# Weather API Tool using FastMCP
+# This script provides a FastMCP server that allows users to get weather alerts
+# and forecasts using the National Weather Service (NWS) API.
+
 from typing import Any
 import httpx
 from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server
 mcp = FastMCP("weather")
+VAR="xxxxxx"  # Placeholder for any variable you might need
+# Replace with your actual variable or remove if not needed
 
 # Constants
 NWS_API_BASE = "https://api.weather.gov"
