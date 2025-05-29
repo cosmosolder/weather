@@ -92,7 +92,7 @@ Forecast: {period['detailedForecast']}
 
     return "\n---\n".join(forecasts)
 if __name__ == "__main__":
-    print('IN WEATHER.PY +++++++++++++++++++++++', file=sys.stderr)
+    #print('IN WEATHER.PY +++++++++++++++++++++++', file=sys.stderr)
     # Initialize and run the server
     mcp.run(transport='stdio')
     
